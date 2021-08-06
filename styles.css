@@ -1,0 +1,16 @@
+#main-head{
+  color: mediumvioletred;
+  border: 5px solid black;
+  padding: 1px;
+  text-align: center;
+  background-color: lightgrey;
+  font-size: 22px;
+}
+
+p{
+   text-align: center;
+}
+
+p:hover{
+  color: hotpink;
+}
