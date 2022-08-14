@@ -1,17 +1,41 @@
-#main-head{
-  color: mediumvioletred;
-  border: 5px solid black;
-  padding: 1px;
+.main-head{
+  color: rgb(212, 21, 21);
   text-align: center;
   background-color: lightgrey;
-  font-size: 22px;
+  font-size: 70px;
+  padding: 60px 60px 60px 60px;
+}
+
+
+.header{
+  color: blueviolet;
+  text-align: center;
+}
+
+
+
+.pquote {
+  float: right;
+  width: 400px;
+  color: #030;
+  font-size: 26px !important;
+  line-height: 0.9;
+  font-style: italic;
+  padding: 13px;
 }
 
 p{
-   text-align: center;
-   color: blueviolet;
+  font-size: 18px;
+}
+blockquote {
+  margin: 0;
+  
 }
 
-p:hover{
-  color: hotpink;
+.pquote p:first-letter {
+  font-size: 30px;
+  font-weight: bold;
+}
+.pquote p{
+  font-size: 26px
 }
