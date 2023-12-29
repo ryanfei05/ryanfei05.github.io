@@ -6,6 +6,16 @@ function toggleMenu() {
     icon.classList.toggle("open");
 }
 
+function viewMore() {
+    // get the clock
+    const more = document.querySelector(".about-containers1");
+    const btn3 = document.querySelector(".btn-color3");
+    
+    more.style.display = 'flex';
+    btn3.style.display = 'none';
+    }
+  
+
 var typed = new Typed(".typing",{
     strings:["Student", "Programmer", "Learner"],
     typeSpeed:250,
