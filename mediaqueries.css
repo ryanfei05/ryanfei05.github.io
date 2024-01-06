@@ -55,9 +55,6 @@
 
 
 @media screen and (max-width: 600px) {
-    #contact,
-    footer {
-    }
     #profile {
       height: 83vh;
       margin-bottom: 0;
@@ -99,6 +96,7 @@
     }
     .about-pic {
         width: 150px;
+        height: fit-content;
         justify-content: center;
     }
     .title {
@@ -132,5 +130,9 @@
         display: flex;
         justify-content: center;
 
+    }
+    #message {
+        display: flex;
+        justify-content: center;
     }
   }
