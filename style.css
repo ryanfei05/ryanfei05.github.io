@@ -506,6 +506,11 @@ form input, form textarea {
     min-height: 50px;
 }
 
+#message {
+    color: rgb(0, 221, 70);
+    display: block;
+}
+
 /* FOOTER SECTION */
 
 footer {

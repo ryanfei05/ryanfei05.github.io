@@ -1,3 +1,15 @@
+@media screen and (max-width: 1400px){
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers {
+        flex-wrap: wrap;
+    }
+    
+}
+
+
 @media screen and (max-width: 1200px){
     #header {
         display: none;
@@ -5,5 +17,120 @@
     #hamburger-nav{
         display: flex;
     }
-    
+    #skills, 
+    .skills-details-container {
+        margin-top: 2rem;
+    }
+    #profile,
+    .section-container  {
+        display: block;
+    }
+    section, 
+    .section-container {
+        height: fit-content;
+    }
+    section {
+        margin: 0 5%;
+    }
+    .section-pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-pic {
+        width: 250px;
+        height: fit-content;
+        justify-content: center;
+    }
+    .section__pic-container {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+      }
+    .about-containers {
+        margin-top: 0;
+    }
 }
+
+
+@media screen and (max-width: 600px) {
+    #contact,
+    footer {
+    }
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+      margin-top: -4rem;
+    }
+    .profile-title {
+        font-size: 2.5rem;
+    }
+    .title-text-p1{
+        font-size: 1rem;
+    }
+    .title-text-p2 {
+        font-size: 1.8rem;
+    }
+    article {
+      font-size: 1rem;
+    }
+    .about-containers,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .skills-sub-title {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .section-pic-container {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto 2rem;
+    }
+
+    .section__pic-container {
+      width: auto;
+      height: auto;
+      display: flex;
+      justify-content: center;
+    }
+    .about-pic {
+        width: 150px;
+        justify-content: center;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .text-container {
+      text-align: justify;
+    }
+    .contact-row{
+        display: block;
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    }
+    .contact-box {
+        justify-content: center;
+    }
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .contact-ls {
+        margin: 2rem;
+        flex-basis: 100%;
+    }
+    .contact-rs {
+        flex-basis: 100%;
+    }
+
+    .btn4-container {
+        display: flex;
+        justify-content: center;
+
+    }
+  }
